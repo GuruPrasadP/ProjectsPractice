@@ -33,6 +33,7 @@ public class CustomRestController {
 		c.setId(16251);
 		return c;
 	}
+	
 	@GetMapping("/categoryXML")
 	@Produces(MediaType.APPLICATION_XML)
 	public @ResponseBody CategoryBO getCategoryXML() {
